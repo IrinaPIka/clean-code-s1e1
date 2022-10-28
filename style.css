@@ -31,11 +31,11 @@ main {
 
 .new-task-wrap {
   display: flex;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 .list-task {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
@@ -78,7 +78,7 @@ main {
   flex-grow: 1;
   width: 318px;
 }
-#new-task::focus {
+#new-task:focus {
   color: #333;
 }
 
@@ -93,11 +93,11 @@ main {
   align-items: center;
 }
 
-.list-task-item   .check-box {
+.list-task-item .check-box {
   margin: 0 10px;
 }
 
-.list-task-item  .task-label {
+.list-task-item .task-label {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -114,7 +114,7 @@ main {
   width: 226px;
 }
 
-.list-task-item  .task-input {
+.list-task-item .task-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -131,8 +131,7 @@ main {
   width: 226px;
 }
 
-
-.list-task-item  .task-input:focus {
+.list-task-item .task-input:focus {
   color: #333;
 }
 
@@ -142,7 +141,7 @@ main {
   width: 224px;
 }
 
-.list-task  .edit-mode .task-label {
+.list-task .edit-mode .task-label {
   display: none;
 }
 
@@ -154,7 +153,7 @@ main {
 
 .delete {
   height: 2em;
-  width:30px;
+  width: 30px;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
   padding: 0px 3px;
