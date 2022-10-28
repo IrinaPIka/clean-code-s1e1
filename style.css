@@ -62,23 +62,31 @@ main {
   text-transform: uppercase;
 }
 
+#new-task, 
+.list-task-item .task-input, 
+.list-task-item .task-label 
+{
+  background: #FFF;
+  border: 1px solid #dDd;
+  border-radius: 6px;
+  color: #888;
+  flex-grow: 1;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  height: 21px;
+  line-height: 18px;
+  margin: 0;
+}
+
 /* New Task */
 #new-task {
-  margin: 0;
-  font-size: 18px;
-  line-height: 18px;
-  height: 21px;
-  padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
-  border-radius: 6px;
-  font-family: Lato, sans-serif;
-  color: #888;
   display: inline-block;
-  flex-grow: 1;
+  padding: 0 9px;
   width: 318px;
 }
-#new-task:focus {
+
+#new-task:focus, 
+.list-task-item .task-input:focus {
   color: #333;
 }
 
@@ -97,42 +105,20 @@ main {
   margin: 0 10px;
 }
 
-.list-task-item .task-label {
-  margin: 0;
-  font-size: 18px;
-  line-height: 18px;
-  font-family: Lato, sans-serif;
-  padding: 0 9px 0 10px;
-  border: 1px solid #dDd;
-  border-radius: 6px;
-  background: #FFF;
-  color: #888;
-  display: inline-block;
-  flex-grow: 1;
+.list-task-item .task-label, 
+.list-task-item .task-input 
+{
   box-sizing: border-box;
-  height: 21px;
+  padding: 0 9px 0 10px;
   width: 226px;
+}
+
+.list-task-item .task-label {
+  display: inline-block;
 }
 
 .list-task-item .task-input {
-  margin: 0;
-  font-size: 18px;
-  line-height: 18px;
-  font-family: Lato, sans-serif;
-  padding: 0 9px 0 10px;
-  border: 1px solid #dDd;
-  border-radius: 6px;
-  background: #FFF;
-  color: #888;
-  flex-grow: 1;
-  box-sizing: border-box;
-  height: 21px;
   display: none;
-  width: 226px;
-}
-
-.list-task-item .task-input:focus {
-  color: #333;
 }
 
 /* Edit Task */
