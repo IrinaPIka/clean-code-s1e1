@@ -2,7 +2,7 @@
 .todo {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
 }
 .tasks__button {
   background: none;
@@ -10,11 +10,11 @@
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
   cursor: pointer;
  }
  .tasks__button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 .tasks__title
 {
@@ -75,19 +75,16 @@
   padding: 0px;
 }
 
-/* Heading */
-
-
 .new__input, 
 .tasks__item__input, 
 .tasks__item__label 
 {
   background: #FFF;
-  border: 1px solid #dDd;
+  border: 1px solid #ddd;
   border-radius: 6px;
   color: #888;
   flex-grow: 1;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
   font-size: 18px;
   height: 21px;
   line-height: 18px;
